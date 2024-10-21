@@ -37,7 +37,7 @@ namespace PR_23._106.Danilovavariant1
                 try
                 {
                     string num = Ninetext.Text;
-                    int num1_sum = 1;
+                    int num1s = 1;
                     int num2_sum = 1;
                     if (num.Length != 12)
                     {
@@ -49,21 +49,21 @@ namespace PR_23._106.Danilovavariant1
 
                     for (int i = 0; i < num1.Length; i++)
                     {
-                        num1_sum = num1_sum * Convert.ToInt32(Convert.ToString(num1[i]));
+                        num1s = num1s * Convert.ToInt32(Convert.ToString(num1[i]));
                         //textbox2.Text += $"{Convert.ToInt32(num1[i])}\n";
                     }
                     for (int i = 0; i < num2.Length; i++)
                     {
                         num2_sum = num2_sum * Convert.ToInt32(Convert.ToString(num2[i]));
                     }
-                    if (num1_sum == num2_sum)
+                    if (num1s == num2_sum)
                     {
-                        textbox2.Text = "произведение 3 первых цифр равно произведению 9 последних цифр";
+                        textbox1.Text = "произведение 3 первых цифр равно произведению 9 последних цифр";
                         //textbox2.Text = $"{num1_sum}\n{num2_sum}";
                     }
                     else
                     {
-                        textbox2.Text = "произведение 3 первых цифр не равно произведению 9 последних цифр";
+                        textbox1.Text = "произведение 3 первых цифр не равно произведению 9 последних цифр";
                         //textbox2.Text = $"{num1_sum}\n{num2_sum}";
                     }
                 }

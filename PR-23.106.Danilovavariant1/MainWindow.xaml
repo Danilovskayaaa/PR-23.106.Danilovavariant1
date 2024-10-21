@@ -18,7 +18,7 @@
         <Label Content="Задание:  определить произведение первых 3 десятичных цифр равна ли сумме 9 последних десятичных цифр" HorizontalAlignment="Center" Margin="23,45,0,0" Grid.Row="2" VerticalAlignment="Top" Width="777" FontFamily="Times New Roman" FontSize="16" Height="56"/>
         <TextBox x:Name="Ninetext" HorizontalAlignment="Left" Margin="412,107,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="186" Height="32" TextChanged="TextBox_TextChanged"/>
         <Label Content="Ответ:" HorizontalAlignment="Left" Margin="34,282,0,0" Grid.Row="2" VerticalAlignment="Top" Width="105" FontFamily="Times New Roman" FontSize="22"/>
-        <TextBox x:Name="textbox2" HorizontalAlignment="Left" Margin="161,282,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="541" Height="36"/>
+        <TextBox x:Name="textbox1" HorizontalAlignment="Left" Margin="161,282,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="541" Height="36" TextChanged="textbox2_TextChanged"/>
         <Button Content="Рассчитать" HorizontalAlignment="Center" Margin="0,199,0,0" Grid.Row="2" VerticalAlignment="Top" Width="128" Height="36" Click="Button_Click"/>
 
     </Grid>
